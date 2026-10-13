@@ -5,7 +5,7 @@ import javax.inject.Inject;
 import br.gov.frameworkdemoiselle.annotation.PreviousView;
 import br.gov.frameworkdemoiselle.stereotype.ViewController;
 import br.gov.frameworkdemoiselle.template.AbstractEditPageBean;
-import br.gov.frameworkdemoiselle.transaction.Transactional;
+import javax.transaction.Transactional;
 
 import ${package}.business.BookmarkBC;
 import ${package}.domain.Bookmark;

@@ -1,0 +1,14 @@
+type: specs.openrewrite.org/v1beta/recipe
+name: br.gov.frameworkdemoiselle.migration.EE10
+displayName: Migrate Demoiselle to EE10
+description: Migrates Demoiselle specific components to EE10 standards.
+recipeList:
+  - org.openrewrite.java.ChangeType:
+      oldFullyQualifiedTypeName: br.gov.frameworkdemoiselle.transaction.Transactional
+      newFullyQualifiedTypeName: jakarta.transaction.Transactional
+  - org.openrewrite.java.ChangeType:
+      oldFullyQualifiedTypeName: javax.transaction.Transactional
+      newFullyQualifiedTypeName: jakarta.transaction.Transactional
+  - org.openrewrite.java.ChangeType:
+      oldFullyQualifiedTypeName: javax.inject.Inject
+      newFullyQualifiedTypeName: jakarta.inject.Inject

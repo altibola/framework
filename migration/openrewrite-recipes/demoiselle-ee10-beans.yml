@@ -1,0 +1,13 @@
+type: specs.openrewrite.org/v1beta/recipe
+name: br.gov.frameworkdemoiselle.migration.EE10Beans
+displayName: Migrate Demoiselle Beans to CDI
+description: Migrates Demoiselle Beans.getReference to CDI CDI.current().select().get().
+recipeList:
+  - org.openrewrite.java.ChangeMethodTargetToStatic:
+      methodPattern: br.gov.frameworkdemoiselle.util.Beans getReference(java.lang.Class)
+      fullyQualifiedTargetTypeName: javax.enterprise.inject.spi.CDI
+      targetMethodName: current().select
+  - org.openrewrite.java.ChangeMethodTargetToStatic:
+      methodPattern: br.gov.frameworkdemoiselle.util.Beans getReference(java.lang.Class, ..)
+      fullyQualifiedTargetTypeName: javax.enterprise.inject.spi.CDI
+      targetMethodName: current().select

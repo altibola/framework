@@ -1,9 +1,0 @@
-type: specs.openrewrite.org/v1beta/recipe
-name: br.gov.frameworkdemoiselle.migration.TestRunners
-displayName: Migrate Demoiselle Test Runners to JUnit
-description: Migrates Demoiselle custom test runners (like DemoiselleRunner) to standard JUnit / Arquillian runners.
-recipeList:
-  - org.openrewrite.java.ChangeType:
-      oldFullyQualifiedTypeName: br.gov.frameworkdemoiselle.junit.DemoiselleRunner
-      newFullyQualifiedTypeName: org.jboss.arquillian.junit.Arquillian
-  - org.openrewrite.java.testing.junit5.JUnit4to5Migration

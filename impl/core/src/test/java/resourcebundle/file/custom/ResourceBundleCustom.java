@@ -34,33 +34,24 @@
  * ou escreva para a Fundação do Software Livre (FSF) Inc.,
  * 51 Franklin St, Fifth Floor, Boston, MA 02111-1301, USA.
  */
-package security.authentication.basic;
+package resourcebundle.file.custom;
 
-import static org.apache.http.HttpStatus.SC_FORBIDDEN;
-import static org.apache.http.HttpStatus.SC_OK;
+import javax.inject.Inject;
 
-import java.io.IOException;
+import br.gov.frameworkdemoiselle.annotation.Name;
+import br.gov.frameworkdemoiselle.util.ResourceBundle;
 
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+public class ResourceBundleCustom {
 
-import br.gov.frameworkdemoiselle.security.SecurityContext;
-import br.gov.frameworkdemoiselle.util.Beans;
+	@Inject
+	@Name("mymessages")
+	private ResourceBundle bundle;
 
-public class HelperServlet extends HttpServlet {
+	public ResourceBundle getBundle() {
+		return bundle;
+	}
 
-	private static final long serialVersionUID = 1L;
-
-	@Override
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		boolean loggedIn = Beans.getReference(SecurityContext.class).isLoggedIn();
-
-		if (loggedIn) {
-			response.setStatus(SC_OK);
-		} else {
-			response.setStatus(SC_FORBIDDEN);
-		}
+	public String getMessage() {
+		return bundle.getString("message");
 	}
 }

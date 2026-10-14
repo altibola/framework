@@ -1,0 +1,11 @@
+type: specs.openrewrite.org/v1beta/recipe
+name: br.gov.frameworkdemoiselle.migration.EE8
+displayName: Migrate Demoiselle to EE8
+description: Migrates Demoiselle specific components to EE8 standards.
+recipeList:
+  - org.openrewrite.java.ChangeType:
+      oldFullyQualifiedTypeName: br.gov.frameworkdemoiselle.transaction.Transactional
+      newFullyQualifiedTypeName: javax.transaction.Transactional
+  - org.openrewrite.java.ChangeType:
+      oldFullyQualifiedTypeName: br.gov.frameworkdemoiselle.util.Beans
+      newFullyQualifiedTypeName: javax.enterprise.inject.spi.CDI

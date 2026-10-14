@@ -1,0 +1,9 @@
+type: specs.openrewrite.org/v1beta/recipe
+name: br.gov.frameworkdemoiselle.migration.Jakarta
+displayName: Migrate Demoiselle to Jakarta EE
+description: Migrates standard Java EE javax namespaces to Jakarta EE 10.
+recipeList:
+  - org.openrewrite.java.ChangePackage:
+      oldPackageName: javax
+      newPackageName: jakarta
+      recursive: true

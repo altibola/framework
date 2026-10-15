@@ -53,7 +53,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.logging.Logger;
 
-import javax.annotation.PreDestroy;
+import jakarta.annotation.PreDestroy;
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.inject.Produces;
 import javax.enterprise.inject.spi.AfterBeanDiscovery;

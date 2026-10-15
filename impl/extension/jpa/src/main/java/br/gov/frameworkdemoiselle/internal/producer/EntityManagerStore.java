@@ -39,8 +39,8 @@ package br.gov.frameworkdemoiselle.internal.producer;
 import java.io.Serializable;
 import java.util.Map;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
+import jakarta.annotation.PostConstruct;
+import jakarta.annotation.PreDestroy;
 import javax.persistence.EntityManager;
 
 

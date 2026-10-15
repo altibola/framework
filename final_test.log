@@ -1,0 +1,629 @@
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle:demoiselle-framework-parent:pom:2.5.2
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-deploy-plugin @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /app/pom.xml, line 200, column 12
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-release-plugin @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /app/pom.xml, line 233, column 12
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /app/pom.xml, line 124, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle:demoiselle-framework-bom:pom:2.5.2
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.eclipse.persistence:javax.persistence:jar -> version ${persistence.version} vs 2.1.1 @ line 389, column 16
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /app/pom.xml, line 124, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle:demoiselle-minimal-parent:pom:2.5.2
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /app/pom.xml, line 124, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle:demoiselle-extension-parent:pom:2.5.2
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:cobertura-maven-plugin is missing. @ line 104, column 12
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /app/pom.xml, line 124, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 108, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle:demoiselle-jsf-parent:pom:2.5.2
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /app/pom.xml, line 124, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle:demoiselle-servlet-parent:pom:2.5.2
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /app/pom.xml, line 124, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-war-plugin is missing. @ line 83, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle:demoiselle-rest-parent:pom:2.5.2
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /app/pom.xml, line 124, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-war-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-servlet-parent:2.5.2, /app/parent/servlet/pom.xml, line 83, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle:demoiselle-se-parent:pom:2.5.2
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /app/pom.xml, line 124, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle:demoiselle-archetype-parent:pom:2.5.2
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /app/pom.xml, line 124, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-resources-plugin is missing. @ line 75, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle:demoiselle-core:jar:2.5.2
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:cobertura-maven-plugin is missing. @ line 103, column 12
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /app/pom.xml, line 124, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle:demoiselle-jdbc:jar:2.5.2
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-deploy-plugin @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 200, column 12
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-release-plugin @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 233, column 12
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 124, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle:demoiselle-jpa:jar:2.5.2
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-deploy-plugin @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 200, column 12
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-release-plugin @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 233, column 12
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 124, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle:demoiselle-jsf:jar:2.5.2
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven:jar -> duplicate declaration of version 2.0.0 @ line 118, column 15
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-deploy-plugin @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 200, column 12
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-release-plugin @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 233, column 12
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 124, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle:demoiselle-jta:jar:2.5.2
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.jboss.arquillian.container:arquillian-glassfish-embedded-3.1:jar -> duplicate declaration of version (?) @ line 124, column 15
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.glassfish.main.extras:glassfish-embedded-all:jar -> duplicate declaration of version (?) @ line 129, column 15
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-deploy-plugin @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 200, column 12
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-release-plugin @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 233, column 12
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 124, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle:demoiselle-se:jar:2.5.2
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-deploy-plugin @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 200, column 12
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-release-plugin @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 233, column 12
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 124, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle:demoiselle-servlet:jar:2.5.2
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-deploy-plugin @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 200, column 12
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-release-plugin @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 233, column 12
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 124, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle:demoiselle-rest:jar:2.5.2
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-deploy-plugin @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 200, column 12
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-release-plugin @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 233, column 12
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 124, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle:demoiselle-jmx:jar:2.5.2
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-deploy-plugin @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 200, column 12
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-release-plugin @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 233, column 12
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /home/jules/.m2/repository/br/gov/frameworkdemoiselle/demoiselle-framework-build/2.5.2/demoiselle-framework-build-2.5.2.pom, line 124, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle.archetypes:demoiselle-minimal:jar:2.5.2
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /app/pom.xml, line 124, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-archetype-plugin is missing. @ line 72, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle.archetypes:demoiselle-jsf-jpa:jar:2.5.2
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /app/pom.xml, line 124, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-archetype-plugin is missing. @ line 72, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle.archetypes:demoiselle-html-rest:jar:2.5.2
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ br.gov.frameworkdemoiselle:demoiselle-framework-build:2.5.2, /app/pom.xml, line 124, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-archetype-plugin is missing. @ line 72, column 12
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for br.gov.frameworkdemoiselle:demoiselle-framework-build:pom:2.5.2
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-deploy-plugin @ line 200, column 12
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-release-plugin @ line 233, column 12
+[WARNING] 'build.plugins.plugin.version' for org.codehaus.mojo:wagon-maven-plugin is missing. @ line 124, column 12
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO] Inspecting build with total of 22 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 22 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO]
+[INFO] Demoiselle Framework                                               [pom]
+[INFO] Demoiselle Framework Parent                                        [pom]
+[INFO] Demoiselle Framework Bill of Materials                             [pom]
+[INFO] Demoiselle Framework Core                                          [jar]
+[INFO] Demoiselle Framework Minimal Parent                                [pom]
+[INFO] Demoiselle Framework Extension Parent                              [pom]
+[INFO] Demoiselle Framework Servlet Extension                             [jar]
+[INFO] Demoiselle Framework JSF Extension                                 [jar]
+[INFO] Demoiselle Framework JSF Parent                                    [pom]
+[INFO] Demoiselle Framework Servlet Parent                                [pom]
+[INFO] Demoiselle Framework REST Extension                                [jar]
+[INFO] Demoiselle Framework REST Parent                                   [pom]
+[INFO] Demoiselle Framework SE Extension                                  [jar]
+[INFO] Demoiselle Framework SE Parent                                     [pom]
+[INFO] Demoiselle Framework Archetype Parent                              [pom]
+[INFO] Demoiselle Framework JDBC Extension                                [jar]
+[INFO] Demoiselle Framework JPA Extension                                 [jar]
+[INFO] Demoiselle Framework JTA Extension                                 [jar]
+[INFO] Demoiselle Framework JMX Extension                                 [jar]
+[INFO] Demoiselle Framework Minimal Archetype                             [jar]
+[INFO] Demoiselle Framework JSF and JPA Archetype                         [jar]
+[INFO] Demoiselle Framework HTML and REST Archetype                       [jar]
+[INFO]
+[INFO] -------< br.gov.frameworkdemoiselle:demoiselle-framework-build >--------
+[INFO] Building Demoiselle Framework 2.5.2                               [1/22]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] -------< br.gov.frameworkdemoiselle:demoiselle-framework-parent >-------
+[INFO] Building Demoiselle Framework Parent 2.5.2                        [2/22]
+[INFO]   from parent/framework/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] --------< br.gov.frameworkdemoiselle:demoiselle-framework-bom >---------
+[INFO] Building Demoiselle Framework Bill of Materials 2.5.2             [3/22]
+[INFO]   from parent/bom/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] -------------< br.gov.frameworkdemoiselle:demoiselle-core >-------------
+[INFO] Building Demoiselle Framework Core 2.5.2                          [4/22]
+[INFO]   from impl/core/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ demoiselle-core ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO]
+[INFO] --- compiler:3.8.1:compile (default-compile) @ demoiselle-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ demoiselle-core ---
+[INFO] Copying 44 resources from src/test/resources to target/test-classes
+[INFO]
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ demoiselle-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 71 source files to /app/impl/core/target/test-classes
+[WARNING] /app/impl/core/src/test/java/resourcebundle/file/defaultfile/ResourceBundleDefaultTest.java:[70,35] Locale(java.lang.String,java.lang.String) in java.util.Locale has been deprecated
+[WARNING] /app/impl/core/src/test/java/util/resourcebundle/ResourceBundleTest.java:[54,87] Locale(java.lang.String) in java.util.Locale has been deprecated
+[WARNING] /app/impl/core/src/test/java/template/TemplateTest.java:[93,21] finalize() in java.lang.Object has been deprecated and marked for removal
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ demoiselle-core ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running resourcebundle.parameter.ResourceBundleWithParameterTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Oct 14, 2026 9:42:59 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.628 s -- in resourcebundle.parameter.ResourceBundleWithParameterTest
+[INFO] Running resourcebundle.file.notexist.ResourceBundleFileNotExistTest
+Oct 14, 2026 9:42:59 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.243 s -- in resourcebundle.file.notexist.ResourceBundleFileNotExistTest
+[INFO] Running resourcebundle.file.empty.ResourceBundleEmptyTest
+Oct 14, 2026 9:43:00 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.151 s -- in resourcebundle.file.empty.ResourceBundleEmptyTest
+[INFO] Running resourcebundle.file.defaultfile.ResourceBundleDefaultTest
+Oct 14, 2026 9:43:00 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.167 s -- in resourcebundle.file.defaultfile.ResourceBundleDefaultTest
+[INFO] Running resourcebundle.file.custom.ResourceBundleCustomTest
+ott 14, 2026 9:43:00 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFORMAZIONI: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+[WARNING] Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.152 s -- in resourcebundle.file.custom.ResourceBundleCustomTest
+[INFO] Running message.MessageContextTest
+Oct 14, 2026 9:43:00 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.155 s -- in message.MessageContextTest
+[INFO] Running logger.LoggerTest
+Oct 14, 2026 9:43:00 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: unnamed producer
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: named producer
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: beans reference producer
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.207 s -- in logger.LoggerTest
+[INFO] Running exception.inheritance.ExceptionInheritanceTest
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Tratando a exceção java.lang.NullPointerException
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Tratando a exceção java.lang.ArithmeticException
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.141 s -- in exception.inheritance.ExceptionInheritanceTest
+[INFO] Running exception.multistrategy.MultiStrategyExceptionHandlerTest
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Tratando a exceção java.lang.NullPointerException
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Tratando a exceção java.lang.NullPointerException
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.100 s -- in exception.multistrategy.MultiStrategyExceptionHandlerTest
+[INFO] Running exception.basic.ExceptionHandlerTest
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Tratando a exceção java.lang.ArithmeticException
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Tratando a exceção java.lang.NullPointerException
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Tratando a exceção java.lang.IllegalArgumentException
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Tratando a exceção java.lang.NullPointerException
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Tratando a exceção java.awt.geom.IllegalPathStateException
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Tratando a exceção java.util.NoSuchElementException
+[WARNING] Tests run: 7, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.144 s -- in exception.basic.ExceptionHandlerTest
+[INFO] Running exception.custom.CustomExceptionTest
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Tratando a exceção exception.custom.CustomException
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.176 s -- in exception.custom.CustomExceptionTest
+[INFO] Running util.resourcebundle.ResourceBundleTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in util.resourcebundle.ResourceBundleTest
+[INFO] Running util.beans.ambiguous.AmbiguousBeansTest
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.113 s -- in util.beans.ambiguous.AmbiguousBeansTest
+[INFO] Running util.beans.qualifier.QualifiedBeansTest
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.133 s -- in util.beans.qualifier.QualifiedBeansTest
+[INFO] Running util.beans.simple.SimpleBeansTest
+Oct 14, 2026 9:43:01 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.115 s -- in util.beans.simple.SimpleBeansTest
+[INFO] Running util.reflection.ReflectionsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in util.reflection.ReflectionsTest
+[INFO] Running util.exception.ExceptionsTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in util.exception.ExceptionsTest
+[INFO] Running util.string.StringsTest
+[WARNING] Tests run: 12, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.006 s -- in util.string.StringsTest
+[INFO] Running context.staticcontext.StaticContextTest
+Oct 14, 2026 9:43:02 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s -- in context.staticcontext.StaticContextTest
+[INFO] Running template.TemplateTest
+Oct 14, 2026 9:43:02 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 s -- in template.TemplateTest
+[INFO] Running lifecycle.startup.priority.StartupWithPriorityTest
+Oct 14, 2026 9:43:02 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+Oct 14, 2026 9:43:02 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Processando: public void lifecycle.startup.priority.StartupWithPriority.loadWithMaxPriority()
+Oct 14, 2026 9:43:02 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Processando: public void lifecycle.startup.priority.StartupWithPriority.loadWithPriority1()
+Oct 14, 2026 9:43:02 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Processando: public void lifecycle.startup.priority.StartupWithPriority.loadWithMinPriority()
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.106 s -- in lifecycle.startup.priority.StartupWithPriorityTest
+[INFO] Running lifecycle.startup.simple.StartupSimpleTest
+Oct 14, 2026 9:43:02 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+Oct 14, 2026 9:43:02 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Processando: public void lifecycle.startup.simple.StartupSimple.loadWithoutPriorityFirst()
+Oct 14, 2026 9:43:02 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Processando: public void lifecycle.startup.simple.StartupSimple.loadWithoutPrioritySecond()
+Oct 14, 2026 9:43:02 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Processando: public void lifecycle.startup.simple.StartupSimple.loadWithoutPriorityThird()
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 s -- in lifecycle.startup.simple.StartupSimpleTest
+[INFO] Running lifecycle.shutdown.priority.ShutdownWithPriorityTest
+Oct 14, 2026 9:43:02 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+Oct 14, 2026 9:43:02 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Processando: public void lifecycle.shutdown.priority.ShutdownWithPriority.unloadWithMaxPriority()
+Oct 14, 2026 9:43:02 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Processando: public void lifecycle.shutdown.priority.ShutdownWithPriority.unloadWithPriority1()
+Oct 14, 2026 9:43:02 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Processando: public void lifecycle.shutdown.priority.ShutdownWithPriority.unloadWithMinPriority()
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 s -- in lifecycle.shutdown.priority.ShutdownWithPriorityTest
+[INFO] Running lifecycle.shutdown.simple.ShutdownSimpleTest
+Oct 14, 2026 9:43:02 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Iniciando o Demoiselle Framework ${project.version} (Malkovich)
+Oct 14, 2026 9:43:02 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Processando: public void lifecycle.shutdown.simple.ShutdownSimple.unloadWithoutPrioritySecond()
+Oct 14, 2026 9:43:02 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Processando: public void lifecycle.shutdown.simple.ShutdownSimple.unloadWithoutPriorityFirst()
+Oct 14, 2026 9:43:02 PM br.gov.frameworkdemoiselle.internal.proxy.LoggerProxy info
+INFO: Processando: public void lifecycle.shutdown.simple.ShutdownSimple.unloadWithoutPriorityThird()
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.100 s -- in lifecycle.shutdown.simple.ShutdownSimpleTest
+[INFO]
+[INFO] Results:
+[INFO]
+[WARNING] Tests run: 70, Failures: 0, Errors: 0, Skipped: 3
+[INFO]
+[INFO]
+[INFO] --------< br.gov.frameworkdemoiselle:demoiselle-minimal-parent >--------
+[INFO] Building Demoiselle Framework Minimal Parent 2.5.2                [5/22]
+[INFO]   from parent/minimal/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] -------< br.gov.frameworkdemoiselle:demoiselle-extension-parent >-------
+[INFO] Building Demoiselle Framework Extension Parent 2.5.2              [6/22]
+[INFO]   from parent/extension/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] -----------< br.gov.frameworkdemoiselle:demoiselle-servlet >------------
+[INFO] Building Demoiselle Framework Servlet Extension 2.5.2             [7/22]
+[INFO]   from impl/extension/servlet/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ demoiselle-servlet ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO]
+[INFO] --- compiler:3.8.1:compile (default-compile) @ demoiselle-servlet ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ demoiselle-servlet ---
+[INFO] Copying 8 resources from src/test/resources to target/test-classes
+[INFO]
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ demoiselle-servlet ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ demoiselle-servlet ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running producer.response.HttpServletResponseProducerTest
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.019 s -- in producer.response.HttpServletResponseProducerTest
+[INFO] Running producer.request.HttpServletRequestProducerTest
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.002 s -- in producer.request.HttpServletRequestProducerTest
+[INFO] Running security.authentication.form.ServletAuthenticatorTest
+[WARNING] Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.001 s -- in security.authentication.form.ServletAuthenticatorTest
+[INFO]
+[INFO] Results:
+[INFO]
+[WARNING] Tests run: 3, Failures: 0, Errors: 0, Skipped: 3
+[INFO]
+[INFO]
+[INFO] -------------< br.gov.frameworkdemoiselle:demoiselle-jsf >--------------
+[INFO] Building Demoiselle Framework JSF Extension 2.5.2                 [8/22]
+[INFO]   from impl/extension/jsf/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ demoiselle-jsf ---
+[INFO] Copying 7 resources from src/main/resources to target/classes
+[INFO]
+[INFO] --- compiler:3.8.1:compile (default-compile) @ demoiselle-jsf ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ demoiselle-jsf ---
+[INFO] Copying 30 resources from src/test/resources to target/test-classes
+[INFO]
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ demoiselle-jsf ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ demoiselle-jsf ---
+[INFO]
+[INFO] ----------< br.gov.frameworkdemoiselle:demoiselle-jsf-parent >----------
+[INFO] Building Demoiselle Framework JSF Parent 2.5.2                    [9/22]
+[INFO]   from parent/jsf/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] --------< br.gov.frameworkdemoiselle:demoiselle-servlet-parent >--------
+[INFO] Building Demoiselle Framework Servlet Parent 2.5.2               [10/22]
+[INFO]   from parent/servlet/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] -------------< br.gov.frameworkdemoiselle:demoiselle-rest >-------------
+[INFO] Building Demoiselle Framework REST Extension 2.5.2               [11/22]
+[INFO]   from impl/extension/rest/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ demoiselle-rest ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO]
+[INFO] --- compiler:3.8.1:compile (default-compile) @ demoiselle-rest ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 34 source files to /app/impl/extension/rest/target/classes
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ demoiselle-rest ---
+[INFO] Copying 6 resources from src/test/resources to target/test-classes
+[INFO]
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ demoiselle-rest ---
+[INFO] Changes detected - recompiling the module!
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ demoiselle-rest ---
+[INFO]
+[INFO] ---------< br.gov.frameworkdemoiselle:demoiselle-rest-parent >----------
+[INFO] Building Demoiselle Framework REST Parent 2.5.2                  [12/22]
+[INFO]   from parent/rest/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] --------------< br.gov.frameworkdemoiselle:demoiselle-se >--------------
+[INFO] Building Demoiselle Framework SE Extension 2.5.2                 [13/22]
+[INFO]   from impl/extension/se/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ demoiselle-se ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO]
+[INFO] --- compiler:3.8.1:compile (default-compile) @ demoiselle-se ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /app/impl/extension/se/target/classes
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ demoiselle-se ---
+[INFO] Copying 5 resources from src/test/resources to target/test-classes
+[INFO]
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ demoiselle-se ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ demoiselle-se ---
+[INFO]
+[INFO] ----------< br.gov.frameworkdemoiselle:demoiselle-se-parent >-----------
+[INFO] Building Demoiselle Framework SE Parent 2.5.2                    [14/22]
+[INFO]   from parent/se/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] -------< br.gov.frameworkdemoiselle:demoiselle-archetype-parent >-------
+[INFO] Building Demoiselle Framework Archetype Parent 2.5.2             [15/22]
+[INFO]   from parent/archetype/pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-2:
+The plugin org.apache.maven.plugins:maven-resources-plugin:4.0.0-beta-2 has unmet prerequisites:
+	Required Maven version 4.0.0-rc-7 is not met by current version 3.9.12
+[INFO] Latest version of plugin org.apache.maven.plugins:maven-resources-plugin failed compatibility check
+[INFO] Looking for compatible RELEASE version of plugin org.apache.maven.plugins:maven-resources-plugin
+[WARNING] Ignoring incompatible plugin version 4.0.0-beta-1:
+The plugin org.apache.maven.plugins:maven-resources-plugin:4.0.0-beta-1 has unmet prerequisites:
+	Required Maven version 4.0.0-beta-3 is not met by current version 3.9.12
+[INFO] Selected plugin org.apache.maven.plugins:maven-resources-plugin:3.5.0
+[INFO]
+[INFO] -------------< br.gov.frameworkdemoiselle:demoiselle-jdbc >-------------
+[INFO] Building Demoiselle Framework JDBC Extension 2.5.2               [16/22]
+[INFO]   from impl/extension/jdbc/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ demoiselle-jdbc ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO]
+[INFO] --- compiler:3.8.1:compile (default-compile) @ demoiselle-jdbc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ demoiselle-jdbc ---
+[INFO] Copying 10 resources from src/test/resources to target/test-classes
+[INFO]
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ demoiselle-jdbc ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ demoiselle-jdbc ---
+[INFO]
+[INFO] -------------< br.gov.frameworkdemoiselle:demoiselle-jpa >--------------
+[INFO] Building Demoiselle Framework JPA Extension 2.5.2                [17/22]
+[INFO]   from impl/extension/jpa/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ demoiselle-jpa ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO]
+[INFO] --- compiler:3.8.1:compile (default-compile) @ demoiselle-jpa ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ demoiselle-jpa ---
+[INFO] Copying 12 resources from src/test/resources to target/test-classes
+[INFO]
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ demoiselle-jpa ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ demoiselle-jpa ---
+[INFO]
+[INFO] -------------< br.gov.frameworkdemoiselle:demoiselle-jta >--------------
+[INFO] Building Demoiselle Framework JTA Extension 2.5.2                [18/22]
+[INFO]   from impl/extension/jta/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ demoiselle-jta ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO]
+[INFO] --- compiler:3.8.1:compile (default-compile) @ demoiselle-jta ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ demoiselle-jta ---
+[INFO] Copying 5 resources from src/test/resources to target/test-classes
+[INFO]
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ demoiselle-jta ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ demoiselle-jta ---
+[INFO]
+[INFO] -------------< br.gov.frameworkdemoiselle:demoiselle-jmx >--------------
+[INFO] Building Demoiselle Framework JMX Extension 2.5.2                [19/22]
+[INFO]   from impl/extension/jmx/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ demoiselle-jmx ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO]
+[INFO] --- compiler:3.8.1:compile (default-compile) @ demoiselle-jmx ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ demoiselle-jmx ---
+[INFO] Copying 6 resources from src/test/resources to target/test-classes
+[INFO]
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ demoiselle-jmx ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ demoiselle-jmx ---
+[INFO]
+[INFO] ------< br.gov.frameworkdemoiselle.archetypes:demoiselle-minimal >------
+[INFO] Building Demoiselle Framework Minimal Archetype 2.5.2            [20/22]
+[INFO]   from archetype/minimal/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ demoiselle-minimal ---
+[INFO] Copying 8 resources from src/main/resources to target/classes
+[INFO]
+[INFO] --- compiler:3.8.1:compile (default-compile) @ demoiselle-minimal ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ demoiselle-minimal ---
+[INFO] skip non existing resourceDirectory /app/archetype/minimal/src/test/resources
+[INFO]
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ demoiselle-minimal ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ demoiselle-minimal ---
+[INFO] No tests to run.
+[INFO]
+[INFO] ------< br.gov.frameworkdemoiselle.archetypes:demoiselle-jsf-jpa >------
+[INFO] Building Demoiselle Framework JSF and JPA Archetype 2.5.2        [21/22]
+[INFO]   from archetype/jsf-jpa/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ demoiselle-jsf-jpa ---
+[INFO] Copying 34 resources from src/main/resources to target/classes
+[INFO]
+[INFO] --- compiler:3.8.1:compile (default-compile) @ demoiselle-jsf-jpa ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ demoiselle-jsf-jpa ---
+[INFO] skip non existing resourceDirectory /app/archetype/jsf-jpa/src/test/resources
+[INFO]
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ demoiselle-jsf-jpa ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ demoiselle-jsf-jpa ---
+[INFO] No tests to run.
+[INFO]
+[INFO] -----< br.gov.frameworkdemoiselle.archetypes:demoiselle-html-rest >-----
+[INFO] Building Demoiselle Framework HTML and REST Archetype 2.5.2      [22/22]
+[INFO]   from archetype/html-rest/pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ demoiselle-html-rest ---
+[INFO] Copying 64 resources from src/main/resources to target/classes
+[INFO]
+[INFO] --- compiler:3.8.1:compile (default-compile) @ demoiselle-html-rest ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ demoiselle-html-rest ---
+[INFO] skip non existing resourceDirectory /app/archetype/html-rest/src/test/resources
+[INFO]
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ demoiselle-html-rest ---
+[INFO] No sources to compile
+[INFO]
+[INFO] --- surefire:3.2.5:test (default-test) @ demoiselle-html-rest ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Demoiselle Framework 2.5.2:
+[INFO]
+[INFO] Demoiselle Framework ............................... SUCCESS [  0.114 s]
+[INFO] Demoiselle Framework Parent ........................ SUCCESS [  0.001 s]
+[INFO] Demoiselle Framework Bill of Materials ............. SUCCESS [  0.001 s]
+[INFO] Demoiselle Framework Core .......................... SUCCESS [  8.143 s]
+[INFO] Demoiselle Framework Minimal Parent ................ SUCCESS [  0.002 s]
+[INFO] Demoiselle Framework Extension Parent .............. SUCCESS [  0.017 s]
+[INFO] Demoiselle Framework Servlet Extension ............. SUCCESS [  0.499 s]
+[INFO] Demoiselle Framework JSF Extension ................. SUCCESS [  0.136 s]
+[INFO] Demoiselle Framework JSF Parent .................... SUCCESS [  0.000 s]
+[INFO] Demoiselle Framework Servlet Parent ................ SUCCESS [  0.011 s]
+[INFO] Demoiselle Framework REST Extension ................ SUCCESS [  0.482 s]
+[INFO] Demoiselle Framework REST Parent ................... SUCCESS [  0.001 s]
+[INFO] Demoiselle Framework SE Extension .................. SUCCESS [  0.190 s]
+[INFO] Demoiselle Framework SE Parent ..................... SUCCESS [  0.001 s]
+[INFO] Demoiselle Framework Archetype Parent .............. SUCCESS [  0.040 s]
+[INFO] Demoiselle Framework JDBC Extension ................ SUCCESS [  0.037 s]
+[INFO] Demoiselle Framework JPA Extension ................. SUCCESS [  0.042 s]
+[INFO] Demoiselle Framework JTA Extension ................. SUCCESS [  0.059 s]
+[INFO] Demoiselle Framework JMX Extension ................. SUCCESS [  0.081 s]
+[INFO] Demoiselle Framework Minimal Archetype ............. SUCCESS [  0.066 s]
+[INFO] Demoiselle Framework JSF and JPA Archetype ......... SUCCESS [  0.026 s]
+[INFO] Demoiselle Framework HTML and REST Archetype ....... SUCCESS [  0.019 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.044 s
+[INFO] Finished at: 2026-10-14T21:43:04Z
+[INFO] ------------------------------------------------------------------------

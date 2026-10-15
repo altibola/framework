@@ -165,8 +165,8 @@
 				<version>3.8.1</version>
 				<configuration>
 					<showDeprecation>true</showDeprecation>
-					<source>11</source>
-					<release>11</release>
+					<source>21</source>
+					<release>21</release>
 
 					<encoding>UTF-8</encoding>
 				</configuration>
